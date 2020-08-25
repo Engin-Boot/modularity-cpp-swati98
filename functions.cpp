@@ -1,4 +1,5 @@
  #include <iostream>
+#include <assert.h>
  using namespace TelCoColorCoder;
  ColorPair GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
