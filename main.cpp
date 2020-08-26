@@ -1,6 +1,6 @@
 #include <iostream>
 #include <assert.h>
-#include "TeleColorCoder"
+#include "TeleColorCoder.h"
 
 
     ColorPair GetColorFromPairNumber(int pairNumber) {
