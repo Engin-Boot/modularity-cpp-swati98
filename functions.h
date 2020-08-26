@@ -1,4 +1,6 @@
 #include <iostream>
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
 #include <assert.h>
 #include "TeleColorCoder.h"
 
@@ -36,3 +38,4 @@ void testPairToNumber(
     assert(pairNumber == expectedPairNumber);
 }
 
+#endif
