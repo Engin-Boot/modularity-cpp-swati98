@@ -1,4 +1,6 @@
 #include <iostream>
+#ifndef TELECOLORCODER_H
+#define TELECOLORCODER_H
 
 namespace TelCoColorCoder
 {
@@ -38,3 +40,4 @@ namespace TelCoColorCoder
             }
     };
 
+#endif
