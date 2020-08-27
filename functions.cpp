@@ -1,4 +1,5 @@
 #include <iostream>
+#include "TeleColorCoder.h"
 #include "functions.h"
 
 struct func{
@@ -13,7 +14,7 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
     int GetPairNumberFromColor(MajorColor major, MinorColor minor) {
         return major * numberOfMinorColors + minor + 1;
     }
-}
+
 
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
