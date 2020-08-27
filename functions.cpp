@@ -1,6 +1,7 @@
 #include <iostream>
 #include "functions.h"
 
+struct func{
 ColorPair GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
         MajorColor majorColor = 
@@ -34,4 +35,4 @@ void testPairToNumber(
     std::cout << "Got pair number " << pairNumber << std::endl;
     assert(pairNumber == expectedPairNumber);
 }
-
+};
