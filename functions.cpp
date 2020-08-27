@@ -1,5 +1,5 @@
 #include <iostream>
-#include "funcions.h"
+#include "functions.h"
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
